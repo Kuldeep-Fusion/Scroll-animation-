@@ -1,0 +1,214 @@
+@font-face {
+    font-family: Product Sans;
+    src: url(Font/Product\ Sans\ Regular.ttf);
+}
+@font-face {
+    font-family: Product Sans B;
+    src: url(Font/Product\ Sans\ Bold.ttf);
+}
+
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Product Sans;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: orangered;}
+
+
+/* Navigation Bar Styles */
+.nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    padding: 0vw 10vw;
+    z-index: 99;
+    color: white;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25%;
+}
+.nav li {
+    color: white;
+}
+/* Example Section */
+.one {
+    height: 100vh;
+    background: linear-gradient(-35deg, rgb(254 100 27) 50%, rgb(254 200 78) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+h1{
+    position: absolute;
+font-size: 30rem;
+text-align: center;
+color: white;
+z-index: 1;
+}
+#fanta{
+    position: absolute;
+    width: 18%;
+    z-index: 2;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+
+}
+
+#orange-slice{
+position: absolute;
+top: 10%;
+z-index: 3;
+left: 38%;
+width: 13%;
+transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#orange{
+    position: absolute;
+    width: 18%;
+    bottom: 8%;
+    right: 30%;
+    z-index: 2;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+
+#leaf1{
+    position: absolute;
+    top: 21%;
+    left: 6%;
+    z-index: 2;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#leaf2{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    width: 8%;
+    transform: rotate(160deg);
+}
+
+#leaf3{
+    position: absolute;
+    top: 23%;
+    left: 57%;
+    width: 12%;
+    transform: rotate(-90deg);
+    z-index: 0;
+}
+#leaf4{
+    position: absolute;
+    bottom: 5%;
+    left: 0%;
+    width: 10%;
+    transform: rotate(90deg);
+    z-index: 0;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+.two{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background:#4d231c ;
+    
+}
+.two img{
+width: 35%;
+}
+
+.content{
+    max-width: 50%;
+    color: white;
+}
+.content h2{
+    font-size: 5vw;
+}
+.content p{
+    margin-top: 10px;
+    color: #fff;
+    width: 80%;
+}
+
+
+.three{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap:  6%;
+    padding: 0 100px;
+    background:linear-gradient(150deg, rgb(255, 166, 0), rgb(255, 94, 0));
+}
+
+.card{
+    margin-top: 4%;
+    width: 25%;
+    height:50%;
+    background-color: white;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    justify-content: end;
+    padding-bottom: 3%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 15px;
+    position: relative;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+button{
+padding: 20px 30px;
+border-radius:  50px;
+border: none;
+background-color: orange;
+color: white;
+font-size: 1rem;
+}
+
+#pepsi{
+    width: 50%;
+top: -15%;
+position: absolute;
+z-index: 1;
+transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+#sprite{
+    width: 50%;
+    top: -15%;
+    position: absolute;
+z-index: 1;
+transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+#orange-slice3{
+    width: 70%;
+    top:  -30%;
+    position: absolute;
+z-index: 0;
+transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#orange-slice2{
+    width: 70%;
+    top:  -30%;
+    position: absolute;
+z-index: 0;
+transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
